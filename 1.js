@@ -1,12 +1,14 @@
-function printPattern() {
-    let pattern = '';
-    
-    for (let i = 2; i <= 6; i++) {
-      pattern += '#'.repeat(i) + '\n';
+let numeroLinhas = prompt("Digite a quantidade de linhas para o triângulo:");
+
+numeroLinhas = parseInt(numeroLinhas);
+
+for (let linha = 1; linha <= numeroLinhas; linha++) {
+
+    let linhaTriangulo = "";
+
+    for (let i = 0; i < linha; i++) {
+        linhaTriangulo += "#";
     }
-    
-    console.log(pattern);
-  }
-  
-  printPattern();
-  
+
+    console.log(linhaTriangulo);
+}
