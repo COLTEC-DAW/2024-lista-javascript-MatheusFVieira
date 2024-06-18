@@ -10,7 +10,6 @@ function countChars(frase, c) {
     return count;
 }
 
-
 //Teste:
 
 let frase = "Matheus Freitas Vieira";
