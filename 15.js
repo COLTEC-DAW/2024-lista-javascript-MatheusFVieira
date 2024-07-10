@@ -27,6 +27,7 @@ function caesarDecipher(char, shift = 3) {
     return caesarCipher(char, 26 - shift);
 }
 
+
 //Teste:
 let decryptedText = encrypt(encryptedText, char => caesarDecipher(char, 3));
 console.log('Texto descriptografado:', decryptedText);
